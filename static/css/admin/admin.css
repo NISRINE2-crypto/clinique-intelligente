@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container, .dashboard-container {
+    max-width: 400px;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #0d3c79;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #019170;
+}
+
+a {
+    color: #6c5ce7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p.redirect {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    margin: 15px 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 40px 20px 10px;
+    background-color: #ffffff;
+}
+
+header h1 {
+    color: #003366;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    gap: 40px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card-img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #003366;
+}
+
+.card p {
+    font-size: 15px;
+    color: #666;
+    margin: 15px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #004a99;
+}
